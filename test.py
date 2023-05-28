@@ -13,8 +13,11 @@ class TestMethods(unittest.TestCase):
         self.assertEqual(calc.annuity(0, 0), 0)
 
     def test_diff_zero(self):
-        self.assertEqual(calc.diff(1000, 0, 10),
-                         [])
+        self.assertEqual(calc.diff(1000, 0, 10), [])
+
+    def test_diff_warning(self):
+        warning = 'Значения суммы, срока и процентной ставки не может быть меньше 0'
+        self.assertEqual(calc.diff_result(-10, -14, 32), (warning, warning, warning))
 
 
 if __name__ == '__main__':
