@@ -28,7 +28,7 @@ def diff(summ, period, percent):
 
 
 def ann_result(summ, period, percent):
-    if summ or period or percent < 0:
+    if (summ or period or percent) < 0:
         return warning, warning, warning
     else:
         m_payment = summ * annuity(period, percent)
