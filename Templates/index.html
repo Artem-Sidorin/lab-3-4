@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form action="" method="post">
+    <p>Сумма кредита</p>
+    <input type="text" name="summ"><br>
+    <p>Срок кредита</p>
+    <input type="text" name="period"><br>
+    <p>Процентная ставка</p>
+    <input type="text" name="percent"><br>
+    <p>Тип ежемесячных платежей</p>
+    <p><input type="radio" name="typ" value=1 checked>Аннуитетные</p>
+    <p><input type="radio" name="typ" value=2>Дифференцированные</p><br>
+    <input type="submit">
+</form>
+<p>Ежемесячный платеж: {{m_payment}}</p>
+<p>Проценты по долгу: {{deb_perc}}</p>
+<p>Долг + проценты: {{total}}</p>
+</body>
+</html>
