@@ -20,4 +20,8 @@
 ![image](https://github.com/Artem-Sidorin/lab-3-4/assets/84307379/e8f20240-5038-4f75-8773-69497cde03ef)
 
 ![image](https://github.com/Artem-Sidorin/lab-3-4/assets/84307379/dd5e4568-529a-46a3-83df-49875e37ce7b)
-(представлена сумма плтежа за каждый месяц)
+(представлена сумма платежа за каждый месяц)
+
+# lab 4
+
+![image](https://github.com/Artem-Sidorin/lab-3-4/assets/84307379/04f01608-8a68-4c0d-b688-c9914d6964c5)
